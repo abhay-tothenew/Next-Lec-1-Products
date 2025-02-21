@@ -1,4 +1,6 @@
 
+import { CSSProperties } from "react";
+
 export default function Home() {
   return (
     <div style={styles.container}>
@@ -8,7 +10,6 @@ export default function Home() {
     </div>
   );
 }
-import { CSSProperties } from "react";
 
 const styles: { container: CSSProperties; button: CSSProperties } = {
   container: {
